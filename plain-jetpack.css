@@ -1,0 +1,43 @@
+
+.jetpack-pagestyles #screen-meta {
+	border-color: #f1f1f1;
+}
+
+.jetpack-pagestyles .masthead h1,
+.jetpack-pagestyles .masthead .flyby,
+.jetpack-pagestyles .clouds-sm {
+	display: none;
+}
+
+.jetpack-pagestyles .masthead .subhead {
+	margin-top: 0;
+	padding: 25px 0;
+}
+
+.jetpack-pagestyles .footer {
+	background: transparent;
+	padding: 0;
+}
+
+.jetpack-pagestyles .footer:before {
+	display: none;
+}
+
+.jetpack-pagestyles .footer nav a,
+.jetpack-pagestyles .footer nav a:visited {
+	color: #444;
+}
+
+.jetpack-pagestyles .footer nav a:hover,
+.jetpack-pagestyles .footer nav a:focus,
+.jetpack-pagestyles .footer nav a:visited:hover,
+.jetpack-pagestyles .footer nav a:visited:focus {
+	color: #888;
+}
+
+@media (max-width: 530px) {
+	.jetpack-pagestyles nav .primary-footer a,
+	.jetpack-pagestyles nav .secondary-footer a {
+		border-top-color: #888;
+	}
+}
